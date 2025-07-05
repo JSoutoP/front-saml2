@@ -1,0 +1,242 @@
+html {
+  height: unset;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: unset;
+  padding: unset;
+  width: unset;
+}
+
+body {
+  height: unset;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: unset;
+  padding: unset;
+}
+
+header {
+  display: block;
+  background-color: white;
+  padding: unset;
+  height: unset;
+}
+
+div {
+  display: block;
+  padding: unset;
+}
+
+div > h1 {
+  font-size: 2.4em;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-right: 50px;
+  color: rgb(67, 194, 203);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-position: right center;
+  padding-bottom: unset;
+  width: unset;
+  border-bottom: none;
+}
+
+/*---------------------------HEADER--------------------------*/
+/*-----------------------------------------------------------*/
+.header .container {
+  border-bottom: 1px solid #43c2cb;
+  width: 80%;
+}
+
+.center-content {
+  text-align: left;
+  padding-left: 10%;
+  width: 80%;
+}
+
+/*INPUT*/
+.form-control {
+  background-color: #fff;
+  border: 1px solid #b3b3b3;
+}
+.form-control:hover,
+.form-control:focus {
+  border-color: #42c1ca;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(66, 193, 202, 0.9);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(66, 193, 202, 0.9);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+form button.btn-default {
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+h1 {
+  font-size: 2.4em;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-right: 50px;
+  color: rgb(67, 194, 203);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-position: right center;
+}
+
+.container {
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: rgb(64, 64, 64);
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 80%;
+}
+
+h3 {
+  font-size: 1.6em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  color: #42c1ca;
+  border-bottom: 1px solid #42c1ca;
+  width: 80%;
+}
+
+h5 {
+  font-family: sans-serif;
+  margin: 0px 10px;
+  line-height: 30px;
+  font-size: 14px;
+  height: 40px;
+  width: 80%;
+}
+
+.input-control {
+  width: 100%;
+}
+
+/*BTN*/
+.btn-default {
+  font-weight: bold;
+  color: #fff;
+  background: #42c1ca;
+  border: none;
+  transition: all 0.3s ease;
+  font-size: inherit;
+  width: 80%;
+  height: 40px;
+}
+
+form button.btn-default:hover {
+  color: #fff;
+  text-shadow: none;
+  background: #8edae0;
+  border-color: #8edae0;
+  cursor: pointer;
+}
+
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.open > .dropdown-toggle.btn-default.focus,
+.open > .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default:hover {
+  color: #42c1ca;
+  background: #d9f3f5;
+  border-color: #d9f3f5;
+}
+
+.btn-default.focus,
+.btn-default:focus {
+  color: #42c1ca;
+  text-shadow: none;
+  background-color: #d9f3f5;
+  border-color: #d9f3f5;
+  -moz-box-shadow: 0px 0px 0px -6px #d9f3f5;
+  -webkit-box-shadow: 0px 0px 0px -6px #d9f3f5;
+  box-shadow: 0px 0px 0px -6px #d9f3f5;
+}
+
+.form-control {
+  background-color: #fff;
+  border: 1px solid #b3b3b3;
+  height: 25px;
+}
+.form-control:hover,
+.form-control:focus {
+  border-color: #42c1ca;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(66, 193, 202, 0.9);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(66, 193, 202, 0.9);
+}
+
+.table-options {
+  width: 80%;
+  table-layout: fixed;
+}
+
+.table-select {
+  width: 80%;
+  table-layout: fixed;
+  text-align: left;
+}
+
+.input-option {
+  margin-left: 0px;
+}
+
+/*-----------------------------------------------------------*/
+
+.table > thead > tr > th {
+  border-bottom: 1px solid #b3b3b3;
+}
+.table-striped > tbody > tr:nth-of-type(2n + 1) {
+  background-color: #f9f9f9;
+}
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  border-top: 1px solid #b3b3b3;
+}
+
+.table-container {
+  width: 80%;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  border-collapse: collapse;
+
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.table-container td,
+th {
+  height: 40px;
+  vertical-align: middle; /* Optional: Centers text vertically */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+th {
+  text-align: left;
+}
